@@ -1,3 +1,3 @@
 
-rootProject.name = "gradle-webapp"
+rootProject.name = "confexplorer"
 
