@@ -1,8 +1,5 @@
 import component.VideoList
 import component.VideoPlayer
-import csstype.Position
-import csstype.px
-import emotion.react.css
 import react.FC
 import react.Props
 import react.dom.html.ReactHTML.div
@@ -24,10 +21,7 @@ val App = FC<Props> {
         +"KotlinConf Explorer"
     }
     div {
-        css {
-            position = Position.absolute
-            left = 100.px
-        }
+
         h3 {
             +"Videos to watch"
         }
